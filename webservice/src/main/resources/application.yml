@@ -1,0 +1,31 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: MicroService
+
+logging:
+  level:
+    org.springframework: INFO
+    com.anshuman: TRACE
+    web.servlet.DispatcherServlet: DEBUG
+
+endpoints:
+  health:
+    sensitive: false
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+
+app:
+  requestTimeoutTime: 30
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, threaddump, loggers, httptrace
+  security:
+    enabled: false

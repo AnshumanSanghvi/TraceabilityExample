@@ -1,0 +1,45 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: Gateway
+  cloud:
+    gateway:
+      routes:
+        - id: microservice_route
+          uri: http://localhost:9001
+          predicates:
+            - Path=/ms/**
+          filters:
+            - RewritePath=/ms/(?<segment>.*), /$\{segment}
+      httpclient:
+        response-timeout: 45s
+        connect-timeout: 15000
+
+logging:
+  level:
+    org.springframework: INFO
+    com.anshuman: DEBUG
+    web.servlet.DispatcherServlet: DEBUG
+    org.springframework.cloud.gateway: DEBUG
+    reactor.netty.http.client: DEBUG
+
+endpoints:
+  health:
+    sensitive: false
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+
+app:
+  requestTimeoutTime: 30
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, threaddump, loggers, httptrace
+  security:
+    enabled: false

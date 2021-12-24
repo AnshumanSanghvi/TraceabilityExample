@@ -1,0 +1,265 @@
+MicroService    2021-12-24 12:12:39,962 INFO  [restartedMain] (MicroServiceApp.logStarting:55) - Starting MicroServiceApp using Java 11.0.9.1 on aas-unix with PID 784549 (/media/anshuman/Files and Backup/workspace/spring/gateway-multi-project/webservice/build/classes/java/main started by anshuman in /media/anshuman/Files and Backup/workspace/spring/gateway-multi-project)
+MicroService    2021-12-24 12:12:39,964 DEBUG [restartedMain] (MicroServiceApp.logStarting:56) - Running with Spring Boot v2.5.4, Spring v5.3.9
+MicroService    2021-12-24 12:12:39,965 INFO  [restartedMain] (MicroServiceApp.logStartupProfileInfo:659) - No active profile set, falling back to default profiles: default
+MicroService    2021-12-24 12:12:40,013 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+MicroService    2021-12-24 12:12:40,013 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+MicroService    2021-12-24 12:12:41,392 INFO  [restartedMain] (EndpointLinksResolver.<init>:58) - Exposing 4 endpoint(s) beneath base path '/actuator'
+MicroService    2021-12-24 12:12:41,660 INFO  [restartedMain] (OptionalLiveReloadServer.startServer:58) - LiveReload server is running on port 35729
+MicroService    2021-12-24 12:12:41,781 INFO  [restartedMain] (NettyWebServer.start:111) - Netty started on port 9001
+MicroService    2021-12-24 12:12:41,796 INFO  [restartedMain] (MicroServiceApp.logStarted:61) - Started MicroServiceApp in 2.18 seconds (JVM running for 2.951)
+MicroService    2021-12-24 12:12:41,804 INFO  [restartedMain] (TestService.threadContextTest:19) - Entered method threadContextTest. ThreadContext: threadName:restartedMain
+MicroService xyzzy   2021-12-24 12:12:41,804 INFO  [restartedMain] (TestService.threadContextTest:23) - Added thread context data. ThreadContext: traceId:xyzzy, threadName:restartedMain
+MicroService    2021-12-24 12:12:41,805 INFO  [restartedMain] (TestService.threadContextTest:31) - Cleared ThreadContext and exiting method threadContextTest. ThreadContext: n/a
+MicroService    2021-12-24 12:12:41,805 INFO  [Thread-8] (TestService.lambda$threadContextTest$0:26) - Running on a thread spun up from threadContextTest method. ThreadContext: n/a
+MicroService    2021-12-24 12:14:41,625 INFO  [restartedMain] (MicroServiceApp.logStarting:55) - Starting MicroServiceApp using Java 11.0.9.1 on aas-unix with PID 785016 (/media/anshuman/Files and Backup/workspace/spring/gateway-multi-project/webservice/build/classes/java/main started by anshuman in /media/anshuman/Files and Backup/workspace/spring/gateway-multi-project)
+MicroService    2021-12-24 12:14:41,628 DEBUG [restartedMain] (MicroServiceApp.logStarting:56) - Running with Spring Boot v2.5.4, Spring v5.3.9
+MicroService    2021-12-24 12:14:41,628 INFO  [restartedMain] (MicroServiceApp.logStartupProfileInfo:659) - No active profile set, falling back to default profiles: default
+MicroService    2021-12-24 12:14:41,674 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+MicroService    2021-12-24 12:14:41,674 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+MicroService    2021-12-24 12:14:42,959 INFO  [restartedMain] (EndpointLinksResolver.<init>:58) - Exposing 4 endpoint(s) beneath base path '/actuator'
+MicroService    2021-12-24 12:14:43,221 INFO  [restartedMain] (OptionalLiveReloadServer.startServer:58) - LiveReload server is running on port 35729
+MicroService    2021-12-24 12:14:43,350 INFO  [restartedMain] (NettyWebServer.start:111) - Netty started on port 9001
+MicroService    2021-12-24 12:14:43,366 INFO  [restartedMain] (MicroServiceApp.logStarted:61) - Started MicroServiceApp in 2.092 seconds (JVM running for 2.877)
+MicroService    2021-12-24 12:14:43,374 INFO  [restartedMain] (TestService.threadContextTest:19) - Entered method threadContextTest. ThreadContext: threadName:restartedMain
+MicroService traceId:12345   2021-12-24 12:14:43,375 INFO  [restartedMain] (TestService.threadContextTest:23) - Added thread context data. ThreadContext: traceId:traceId:12345, threadName:restartedMain
+MicroService    2021-12-24 12:14:43,376 INFO  [Thread-8] (TestService.lambda$threadContextTest$0:26) - Running on a thread spun up from threadContextTest method. ThreadContext: n/a
+MicroService    2021-12-24 12:14:43,376 INFO  [restartedMain] (TestService.threadContextTest:32) - Cleared ThreadContext and exiting method threadContextTest. ThreadContext: n/a
+MicroService    2021-12-24 12:18:12,848 INFO  [restartedMain] (MicroServiceApp.logStarting:55) - Starting MicroServiceApp using Java 11.0.9.1 on aas-unix with PID 785473 (/media/anshuman/Files and Backup/workspace/spring/gateway-multi-project/webservice/build/classes/java/main started by anshuman in /media/anshuman/Files and Backup/workspace/spring/gateway-multi-project)
+MicroService    2021-12-24 12:18:12,850 DEBUG [restartedMain] (MicroServiceApp.logStarting:56) - Running with Spring Boot v2.5.4, Spring v5.3.9
+MicroService    2021-12-24 12:18:12,851 INFO  [restartedMain] (MicroServiceApp.logStartupProfileInfo:659) - No active profile set, falling back to default profiles: default
+MicroService    2021-12-24 12:18:12,898 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+MicroService    2021-12-24 12:18:12,898 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+MicroService    2021-12-24 12:18:14,184 INFO  [restartedMain] (EndpointLinksResolver.<init>:58) - Exposing 4 endpoint(s) beneath base path '/actuator'
+MicroService    2021-12-24 12:18:14,427 INFO  [restartedMain] (OptionalLiveReloadServer.startServer:58) - LiveReload server is running on port 35729
+MicroService    2021-12-24 12:18:14,548 INFO  [restartedMain] (NettyWebServer.start:111) - Netty started on port 9001
+MicroService    2021-12-24 12:18:14,562 INFO  [restartedMain] (MicroServiceApp.logStarted:61) - Started MicroServiceApp in 2.04 seconds (JVM running for 2.76)
+MicroService    2021-12-24 12:18:14,571 INFO  [restartedMain] (TestService.threadContextTest:19) - Entered method threadContextTest. ThreadContext: threadName:restartedMain
+MicroService traceId:12345   2021-12-24 12:18:14,571 INFO  [restartedMain] (TestService.threadContextTest:23) - Added thread context data. ThreadContext: traceId:traceId:12345, threadName:restartedMain
+MicroService    2021-12-24 12:18:14,572 INFO  [Thread-8] (TestService.lambda$threadContextTest$0:28) - Running on a thread spun up from threadContextTest method. ThreadContext: hello:world
+MicroService traceId:12345   2021-12-24 12:18:14,572 INFO  [restartedMain] (TestService.threadContextTest:34) - returned back to original thread in threadContextTest method. ThreadContext: traceId:traceId:12345, threadName:restartedMain
+MicroService    2021-12-24 12:18:14,572 INFO  [restartedMain] (TestService.threadContextTest:38) - Cleared ThreadContext and exiting method threadContextTest. ThreadContext: n/a
+MicroService    2021-12-24 12:33:23,285 INFO  [restartedMain] (MicroServiceApp.logStarting:55) - Starting MicroServiceApp using Java 11.0.9.1 on aas-unix with PID 787101 (/media/anshuman/Files and Backup/workspace/spring/gateway-multi-project/webservice/build/classes/java/main started by anshuman in /media/anshuman/Files and Backup/workspace/spring/gateway-multi-project)
+MicroService    2021-12-24 12:33:23,287 DEBUG [restartedMain] (MicroServiceApp.logStarting:56) - Running with Spring Boot v2.5.4, Spring v5.3.9
+MicroService    2021-12-24 12:33:23,287 INFO  [restartedMain] (MicroServiceApp.logStartupProfileInfo:659) - No active profile set, falling back to default profiles: default
+MicroService    2021-12-24 12:33:23,323 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+MicroService    2021-12-24 12:33:23,323 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+MicroService    2021-12-24 12:33:24,738 INFO  [restartedMain] (EndpointLinksResolver.<init>:58) - Exposing 4 endpoint(s) beneath base path '/actuator'
+MicroService    2021-12-24 12:33:24,993 INFO  [restartedMain] (OptionalLiveReloadServer.startServer:58) - LiveReload server is running on port 35729
+MicroService    2021-12-24 12:33:25,122 INFO  [restartedMain] (NettyWebServer.start:111) - Netty started on port 9001
+MicroService    2021-12-24 12:33:25,143 INFO  [restartedMain] (MicroServiceApp.logStarted:61) - Started MicroServiceApp in 2.254 seconds (JVM running for 2.996)
+MicroService    2021-12-24 12:33:25,156 INFO  [Thread-9] (TestService.lambda$threadPoolExecutorTest$1:59) - Callable name: callable2, ThreadContext: callable2:callable2
+MicroService    2021-12-24 12:33:25,156 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:59) - Callable name: callable1, ThreadContext: callable1:callable1
+MicroService    2021-12-24 12:33:25,156 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:59) - Callable name: callable3, ThreadContext: callable3:callable3
+MicroService    2021-12-24 12:33:25,157 DEBUG [Thread-9] (MDCAwareThreadPoolExecutor.afterExecute:90) - execution of callable completed
+MicroService    2021-12-24 12:33:25,157 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:90) - execution of callable completed
+MicroService    2021-12-24 12:33:25,157 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:90) - execution of callable completed
+MicroService    2021-12-24 12:35:27,579 INFO  [restartedMain] (MicroServiceApp.logStarting:55) - Starting MicroServiceApp using Java 11.0.9.1 on aas-unix with PID 787402 (/media/anshuman/Files and Backup/workspace/spring/gateway-multi-project/webservice/build/classes/java/main started by anshuman in /media/anshuman/Files and Backup/workspace/spring/gateway-multi-project)
+MicroService    2021-12-24 12:35:27,581 DEBUG [restartedMain] (MicroServiceApp.logStarting:56) - Running with Spring Boot v2.5.4, Spring v5.3.9
+MicroService    2021-12-24 12:35:27,582 INFO  [restartedMain] (MicroServiceApp.logStartupProfileInfo:659) - No active profile set, falling back to default profiles: default
+MicroService    2021-12-24 12:35:27,614 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+MicroService    2021-12-24 12:35:27,614 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+MicroService    2021-12-24 12:35:28,969 INFO  [restartedMain] (EndpointLinksResolver.<init>:58) - Exposing 4 endpoint(s) beneath base path '/actuator'
+MicroService    2021-12-24 12:35:29,209 INFO  [restartedMain] (OptionalLiveReloadServer.startServer:58) - LiveReload server is running on port 35729
+MicroService    2021-12-24 12:35:29,330 INFO  [restartedMain] (NettyWebServer.start:111) - Netty started on port 9001
+MicroService    2021-12-24 12:35:29,358 INFO  [restartedMain] (MicroServiceApp.logStarted:61) - Started MicroServiceApp in 2.133 seconds (JVM running for 2.902)
+MicroService    2021-12-24 12:35:29,370 INFO  [pool-4-thread-1] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable1, ThreadContext: callable1:callable1
+MicroService    2021-12-24 12:35:29,370 INFO  [pool-4-thread-2] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable2, ThreadContext: callable2:callable2
+MicroService    2021-12-24 12:35:29,370 INFO  [pool-4-thread-3] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable3, ThreadContext: callable3:callable3
+MicroService    2021-12-24 12:36:33,492 INFO  [restartedMain] (MicroServiceApp.logStarting:55) - Starting MicroServiceApp using Java 11.0.9.1 on aas-unix with PID 787785 (/media/anshuman/Files and Backup/workspace/spring/gateway-multi-project/webservice/build/classes/java/main started by anshuman in /media/anshuman/Files and Backup/workspace/spring/gateway-multi-project)
+MicroService    2021-12-24 12:36:33,494 DEBUG [restartedMain] (MicroServiceApp.logStarting:56) - Running with Spring Boot v2.5.4, Spring v5.3.9
+MicroService    2021-12-24 12:36:33,495 INFO  [restartedMain] (MicroServiceApp.logStartupProfileInfo:659) - No active profile set, falling back to default profiles: default
+MicroService    2021-12-24 12:36:33,545 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+MicroService    2021-12-24 12:36:33,545 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+MicroService    2021-12-24 12:36:35,004 INFO  [restartedMain] (EndpointLinksResolver.<init>:58) - Exposing 4 endpoint(s) beneath base path '/actuator'
+MicroService    2021-12-24 12:36:35,272 INFO  [restartedMain] (OptionalLiveReloadServer.startServer:58) - LiveReload server is running on port 35729
+MicroService    2021-12-24 12:36:35,408 INFO  [restartedMain] (NettyWebServer.start:111) - Netty started on port 9001
+MicroService    2021-12-24 12:36:35,424 INFO  [restartedMain] (MicroServiceApp.logStarted:61) - Started MicroServiceApp in 2.314 seconds (JVM running for 3.136)
+MicroService    2021-12-24 12:36:35,436 INFO  [pool-4-thread-2] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable2, ThreadContext: callable2:callable2
+MicroService    2021-12-24 12:36:35,436 INFO  [pool-4-thread-3] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable3, ThreadContext: callable3:callable3
+MicroService    2021-12-24 12:36:35,436 INFO  [pool-4-thread-1] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable1, ThreadContext: callable1:callable1
+MicroService    2021-12-24 12:37:13,324 INFO  [restartedMain] (MicroServiceApp.logStarting:55) - Starting MicroServiceApp using Java 11.0.9.1 on aas-unix with PID 787984 (/media/anshuman/Files and Backup/workspace/spring/gateway-multi-project/webservice/build/classes/java/main started by anshuman in /media/anshuman/Files and Backup/workspace/spring/gateway-multi-project)
+MicroService    2021-12-24 12:37:13,325 DEBUG [restartedMain] (MicroServiceApp.logStarting:56) - Running with Spring Boot v2.5.4, Spring v5.3.9
+MicroService    2021-12-24 12:37:13,326 INFO  [restartedMain] (MicroServiceApp.logStartupProfileInfo:659) - No active profile set, falling back to default profiles: default
+MicroService    2021-12-24 12:37:13,359 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+MicroService    2021-12-24 12:37:13,360 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+MicroService    2021-12-24 12:37:14,663 INFO  [restartedMain] (EndpointLinksResolver.<init>:58) - Exposing 4 endpoint(s) beneath base path '/actuator'
+MicroService    2021-12-24 12:37:14,902 INFO  [restartedMain] (OptionalLiveReloadServer.startServer:58) - LiveReload server is running on port 35729
+MicroService    2021-12-24 12:37:15,022 INFO  [restartedMain] (NettyWebServer.start:111) - Netty started on port 9001
+MicroService    2021-12-24 12:37:15,042 INFO  [restartedMain] (MicroServiceApp.logStarted:61) - Started MicroServiceApp in 2.061 seconds (JVM running for 2.836)
+MicroService    2021-12-24 12:37:15,062 INFO  [pool-4-thread-17] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable17, ThreadContext: callable17:callable17
+MicroService    2021-12-24 12:37:15,062 INFO  [pool-4-thread-12] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable12, ThreadContext: callable12:callable12
+MicroService    2021-12-24 12:37:15,062 INFO  [pool-4-thread-2] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable2, ThreadContext: callable2:callable2
+MicroService    2021-12-24 12:37:15,062 INFO  [pool-4-thread-22] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable22, ThreadContext: callable22:callable22
+MicroService    2021-12-24 12:37:15,062 INFO  [pool-4-thread-21] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable21, ThreadContext: callable21:callable21
+MicroService    2021-12-24 12:37:15,062 INFO  [pool-4-thread-16] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable16, ThreadContext: callable16:callable16
+MicroService    2021-12-24 12:37:15,062 INFO  [pool-4-thread-11] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable11, ThreadContext: callable11:callable11
+MicroService    2021-12-24 12:37:15,062 INFO  [pool-4-thread-3] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable3, ThreadContext: callable3:callable3
+MicroService    2021-12-24 12:37:15,062 INFO  [pool-4-thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable8, ThreadContext: callable8:callable8
+MicroService    2021-12-24 12:37:15,062 INFO  [pool-4-thread-6] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable6, ThreadContext: callable6:callable6
+MicroService    2021-12-24 12:37:15,062 INFO  [pool-4-thread-1] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable1, ThreadContext: callable1:callable1
+MicroService    2021-12-24 12:37:15,062 INFO  [pool-4-thread-9] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable9, ThreadContext: callable9:callable9
+MicroService    2021-12-24 12:37:15,062 INFO  [pool-4-thread-19] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable19, ThreadContext: callable19:callable19
+MicroService    2021-12-24 12:37:15,062 INFO  [pool-4-thread-7] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable7, ThreadContext: callable7:callable7
+MicroService    2021-12-24 12:37:15,062 INFO  [pool-4-thread-5] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable5, ThreadContext: callable5:callable5
+MicroService    2021-12-24 12:37:15,063 INFO  [pool-4-thread-26] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable26, ThreadContext: callable26:callable26
+MicroService    2021-12-24 12:37:15,063 INFO  [pool-4-thread-4] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable4, ThreadContext: callable4:callable4
+MicroService    2021-12-24 12:37:15,063 INFO  [pool-4-thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable10, ThreadContext: callable10:callable10
+MicroService    2021-12-24 12:37:15,063 INFO  [pool-4-thread-13] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable13, ThreadContext: callable13:callable13
+MicroService    2021-12-24 12:37:15,063 INFO  [pool-4-thread-15] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable15, ThreadContext: callable15:callable15
+MicroService    2021-12-24 12:37:15,063 INFO  [pool-4-thread-18] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable18, ThreadContext: callable18:callable18
+MicroService    2021-12-24 12:37:15,063 INFO  [pool-4-thread-24] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable24, ThreadContext: callable24:callable24
+MicroService    2021-12-24 12:37:15,064 INFO  [pool-4-thread-27] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable27, ThreadContext: callable27:callable27
+MicroService    2021-12-24 12:37:15,066 INFO  [pool-4-thread-14] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable14, ThreadContext: callable14:callable14
+MicroService    2021-12-24 12:37:15,071 INFO  [pool-4-thread-28] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable28, ThreadContext: callable28:callable28
+MicroService    2021-12-24 12:37:15,071 INFO  [pool-4-thread-25] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable25, ThreadContext: callable25:callable25
+MicroService    2021-12-24 12:37:15,071 INFO  [pool-4-thread-20] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable20, ThreadContext: callable20:callable20
+MicroService    2021-12-24 12:37:15,071 INFO  [pool-4-thread-23] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable23, ThreadContext: callable23:callable23
+MicroService    2021-12-24 12:37:15,071 INFO  [pool-4-thread-27] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable30, ThreadContext: callable27:callable27, callable30:callable30
+MicroService    2021-12-24 12:37:15,071 INFO  [pool-4-thread-14] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable29, ThreadContext: callable14:callable14, callable29:callable29
+MicroService    2021-12-24 12:40:53,623 INFO  [restartedMain] (MicroServiceApp.logStarting:55) - Starting MicroServiceApp using Java 11.0.9.1 on aas-unix with PID 788458 (/media/anshuman/Files and Backup/workspace/spring/gateway-multi-project/webservice/build/classes/java/main started by anshuman in /media/anshuman/Files and Backup/workspace/spring/gateway-multi-project)
+MicroService    2021-12-24 12:40:53,625 DEBUG [restartedMain] (MicroServiceApp.logStarting:56) - Running with Spring Boot v2.5.4, Spring v5.3.9
+MicroService    2021-12-24 12:40:53,626 INFO  [restartedMain] (MicroServiceApp.logStartupProfileInfo:659) - No active profile set, falling back to default profiles: default
+MicroService    2021-12-24 12:40:53,670 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+MicroService    2021-12-24 12:40:53,670 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+MicroService    2021-12-24 12:40:55,010 INFO  [restartedMain] (EndpointLinksResolver.<init>:58) - Exposing 4 endpoint(s) beneath base path '/actuator'
+MicroService    2021-12-24 12:40:55,249 INFO  [restartedMain] (OptionalLiveReloadServer.startServer:58) - LiveReload server is running on port 35729
+MicroService    2021-12-24 12:40:55,369 INFO  [restartedMain] (NettyWebServer.start:111) - Netty started on port 9001
+MicroService    2021-12-24 12:40:55,390 INFO  [restartedMain] (MicroServiceApp.logStarted:61) - Started MicroServiceApp in 2.118 seconds (JVM running for 2.882)
+MicroService    2021-12-24 12:41:21,057 INFO  [restartedMain] (MicroServiceApp.logStarting:55) - Starting MicroServiceApp using Java 11.0.9.1 on aas-unix with PID 788641 (/media/anshuman/Files and Backup/workspace/spring/gateway-multi-project/webservice/build/classes/java/main started by anshuman in /media/anshuman/Files and Backup/workspace/spring/gateway-multi-project)
+MicroService    2021-12-24 12:41:21,060 DEBUG [restartedMain] (MicroServiceApp.logStarting:56) - Running with Spring Boot v2.5.4, Spring v5.3.9
+MicroService    2021-12-24 12:41:21,060 INFO  [restartedMain] (MicroServiceApp.logStartupProfileInfo:659) - No active profile set, falling back to default profiles: default
+MicroService    2021-12-24 12:41:21,114 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+MicroService    2021-12-24 12:41:21,114 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+MicroService    2021-12-24 12:41:22,714 INFO  [restartedMain] (EndpointLinksResolver.<init>:58) - Exposing 4 endpoint(s) beneath base path '/actuator'
+MicroService    2021-12-24 12:41:22,979 INFO  [restartedMain] (OptionalLiveReloadServer.startServer:58) - LiveReload server is running on port 35729
+MicroService    2021-12-24 12:41:23,109 INFO  [restartedMain] (NettyWebServer.start:111) - Netty started on port 9001
+MicroService    2021-12-24 12:41:23,128 INFO  [restartedMain] (MicroServiceApp.logStarted:61) - Started MicroServiceApp in 2.438 seconds (JVM running for 3.223)
+MicroService    2021-12-24 12:41:23,140 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable1, ThreadContext: callable1:callable1
+MicroService    2021-12-24 12:41:23,140 INFO  [Thread-9] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable2, ThreadContext: callable2:callable2
+MicroService    2021-12-24 12:41:23,140 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable3, ThreadContext: callable3:callable3
+MicroService    2021-12-24 12:41:23,140 DEBUG [Thread-9] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,140 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,140 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,140 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable5, ThreadContext: callable5:callable5
+MicroService    2021-12-24 12:41:23,140 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable6, ThreadContext: callable6:callable6
+MicroService    2021-12-24 12:41:23,140 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,140 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,141 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable7, ThreadContext: callable7:callable7
+MicroService    2021-12-24 12:41:23,141 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable8, ThreadContext: callable8:callable8
+MicroService    2021-12-24 12:41:23,141 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,141 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,141 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable9, ThreadContext: callable9:callable9
+MicroService    2021-12-24 12:41:23,141 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable10, ThreadContext: callable10:callable10
+MicroService    2021-12-24 12:41:23,141 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,141 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,141 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable11, ThreadContext: callable11:callable11
+MicroService    2021-12-24 12:41:23,141 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable12, ThreadContext: callable12:callable12
+MicroService    2021-12-24 12:41:23,141 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,141 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,141 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable13, ThreadContext: callable13:callable13
+MicroService    2021-12-24 12:41:23,141 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,141 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable14, ThreadContext: callable14:callable14
+MicroService    2021-12-24 12:41:23,141 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,141 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable15, ThreadContext: callable15:callable15
+MicroService    2021-12-24 12:41:23,142 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,142 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable16, ThreadContext: callable16:callable16
+MicroService    2021-12-24 12:41:23,142 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,142 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable17, ThreadContext: callable17:callable17
+MicroService    2021-12-24 12:41:23,142 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable18, ThreadContext: callable18:callable18
+MicroService    2021-12-24 12:41:23,142 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,142 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,142 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable19, ThreadContext: callable19:callable19
+MicroService    2021-12-24 12:41:23,142 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable20, ThreadContext: callable20:callable20
+MicroService    2021-12-24 12:41:23,142 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,142 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,142 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable21, ThreadContext: callable21:callable21
+MicroService    2021-12-24 12:41:23,142 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable22, ThreadContext: callable22:callable22
+MicroService    2021-12-24 12:41:23,142 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,143 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,143 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable23, ThreadContext: callable23:callable23
+MicroService    2021-12-24 12:41:23,143 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,143 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable24, ThreadContext: callable24:callable24
+MicroService    2021-12-24 12:41:23,143 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,143 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable25, ThreadContext: callable25:callable25
+MicroService    2021-12-24 12:41:23,143 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,143 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable26, ThreadContext: callable26:callable26
+MicroService    2021-12-24 12:41:23,143 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable27, ThreadContext: callable27:callable27
+MicroService    2021-12-24 12:41:23,143 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,143 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,143 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable28, ThreadContext: callable28:callable28
+MicroService    2021-12-24 12:41:23,143 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable29, ThreadContext: callable29:callable29
+MicroService    2021-12-24 12:41:23,143 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,143 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,143 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable30, ThreadContext: callable30:callable30
+MicroService    2021-12-24 12:41:23,144 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:41:23,145 INFO  [Thread-9] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable4, ThreadContext: callable4:callable4
+MicroService    2021-12-24 12:41:23,145 DEBUG [Thread-9] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:23,034 INFO  [restartedMain] (MicroServiceApp.logStarting:55) - Starting MicroServiceApp using Java 11.0.9.1 on aas-unix with PID 788874 (/media/anshuman/Files and Backup/workspace/spring/gateway-multi-project/webservice/build/classes/java/main started by anshuman in /media/anshuman/Files and Backup/workspace/spring/gateway-multi-project)
+MicroService    2021-12-24 12:42:23,036 DEBUG [restartedMain] (MicroServiceApp.logStarting:56) - Running with Spring Boot v2.5.4, Spring v5.3.9
+MicroService    2021-12-24 12:42:23,037 INFO  [restartedMain] (MicroServiceApp.logStartupProfileInfo:659) - No active profile set, falling back to default profiles: default
+MicroService    2021-12-24 12:42:23,089 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+MicroService    2021-12-24 12:42:23,089 INFO  [restartedMain] (DevToolsPropertyDefaultsPostProcessor.logTo:255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+MicroService    2021-12-24 12:42:24,452 INFO  [restartedMain] (EndpointLinksResolver.<init>:58) - Exposing 4 endpoint(s) beneath base path '/actuator'
+MicroService    2021-12-24 12:42:24,685 INFO  [restartedMain] (OptionalLiveReloadServer.startServer:58) - LiveReload server is running on port 35729
+MicroService    2021-12-24 12:42:24,798 INFO  [restartedMain] (NettyWebServer.start:111) - Netty started on port 9001
+MicroService    2021-12-24 12:42:24,813 INFO  [restartedMain] (MicroServiceApp.logStarted:61) - Started MicroServiceApp in 2.138 seconds (JVM running for 2.982)
+MicroService    2021-12-24 12:42:24,825 INFO  [Thread-9] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable2, ThreadContext: callable2:callable2
+MicroService    2021-12-24 12:42:24,825 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable1, ThreadContext: callable1:callable1
+MicroService    2021-12-24 12:42:24,825 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable3, ThreadContext: callable3:callable3
+MicroService    2021-12-24 12:42:24,825 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,825 DEBUG [Thread-9] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,825 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,825 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable4, ThreadContext: callable4:callable4
+MicroService    2021-12-24 12:42:24,825 INFO  [Thread-9] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable5, ThreadContext: callable5:callable5
+MicroService    2021-12-24 12:42:24,825 DEBUG [Thread-9] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,825 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,826 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable6, ThreadContext: callable6:callable6
+MicroService    2021-12-24 12:42:24,826 INFO  [Thread-9] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable7, ThreadContext: callable7:callable7
+MicroService    2021-12-24 12:42:24,826 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable8, ThreadContext: callable8:callable8
+MicroService    2021-12-24 12:42:24,826 DEBUG [Thread-9] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,826 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,826 INFO  [Thread-9] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable9, ThreadContext: callable9:callable9
+MicroService    2021-12-24 12:42:24,826 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable10, ThreadContext: callable10:callable10
+MicroService    2021-12-24 12:42:24,826 DEBUG [Thread-9] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,826 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,826 INFO  [Thread-9] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable11, ThreadContext: callable11:callable11
+MicroService    2021-12-24 12:42:24,826 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable12, ThreadContext: callable12:callable12
+MicroService    2021-12-24 12:42:24,826 DEBUG [Thread-9] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,826 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,826 INFO  [Thread-9] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable13, ThreadContext: callable13:callable13
+MicroService    2021-12-24 12:42:24,827 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable14, ThreadContext: callable14:callable14
+MicroService    2021-12-24 12:42:24,827 DEBUG [Thread-9] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,827 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,827 INFO  [Thread-9] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable15, ThreadContext: callable15:callable15
+MicroService    2021-12-24 12:42:24,827 DEBUG [Thread-9] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,827 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable16, ThreadContext: callable16:callable16
+MicroService    2021-12-24 12:42:24,827 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,827 INFO  [Thread-9] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable17, ThreadContext: callable17:callable17
+MicroService    2021-12-24 12:42:24,827 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable18, ThreadContext: callable18:callable18
+MicroService    2021-12-24 12:42:24,827 DEBUG [Thread-9] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,827 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,827 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,827 INFO  [Thread-9] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable19, ThreadContext: callable19:callable19
+MicroService    2021-12-24 12:42:24,827 INFO  [Thread-10] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable20, ThreadContext: callable20:callable20
+MicroService    2021-12-24 12:42:24,827 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable21, ThreadContext: callable21:callable21
+MicroService    2021-12-24 12:42:24,828 DEBUG [Thread-9] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,828 INFO  [Thread-9] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable22, ThreadContext: callable22:callable22
+MicroService    2021-12-24 12:42:24,828 DEBUG [Thread-9] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,828 INFO  [Thread-9] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable23, ThreadContext: callable23:callable23
+MicroService    2021-12-24 12:42:24,828 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,828 DEBUG [Thread-9] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,828 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable24, ThreadContext: callable24:callable24
+MicroService    2021-12-24 12:42:24,828 INFO  [Thread-9] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable25, ThreadContext: callable25:callable25
+MicroService    2021-12-24 12:42:24,828 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,828 DEBUG [Thread-9] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,828 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable26, ThreadContext: callable26:callable26
+MicroService    2021-12-24 12:42:24,829 INFO  [Thread-9] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable27, ThreadContext: callable27:callable27
+MicroService    2021-12-24 12:42:24,829 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,829 DEBUG [Thread-9] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,829 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable28, ThreadContext: callable28:callable28
+MicroService    2021-12-24 12:42:24,829 INFO  [Thread-9] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable29, ThreadContext: callable29:callable29
+MicroService    2021-12-24 12:42:24,829 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,829 DEBUG [Thread-9] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,829 INFO  [Thread-8] (TestService.lambda$threadPoolExecutorTest$1:60) - Callable name: callable30, ThreadContext: callable30:callable30
+MicroService    2021-12-24 12:42:24,829 DEBUG [Thread-8] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
+MicroService    2021-12-24 12:42:24,828 DEBUG [Thread-10] (MDCAwareThreadPoolExecutor.afterExecute:97) - Cleaning the MDC context on thread execution completed
