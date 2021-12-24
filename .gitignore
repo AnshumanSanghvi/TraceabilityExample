@@ -1,6 +1,49 @@
+### Gradle ###
+gateway/.gradle
+gateway/gradle/wrapper/gradle-wrapper.jar
+microservice/.gradle
+microservice/gradle/wrapper/gradle-wrapper.jar
+
+### build ###
+gateway/build/
+gateway/**/src/main/**/build/
+gateway/**/src/test/**/build/
+gateway/bin/
+gateway/**/src/main/**/bin/
+gateway/**/src/test/**/bin/
+microservice/**/src/main/**/out/
+microservice/**/src/test/**/out/
+microservice/build/
+microservice/**/src/main/**/build/
+microservice/**/src/test/**/build/
+microservice/bin/
+microservice/**/src/main/**/bin/
+microservice/**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+gateway/.idea
+gateway/*.iws
+gateway/*.iml
+gateway/*.ipr
+gateway/out/
+gateway/**/src/main/**/out/
+gateway/**/src/test/**/out/
+microservice/.idea
+microservice/*.iws
+microservice/*.iml
+microservice/*.ipr
+microservice/out/
+
+### logs ###
+logs
+microservice/logs
+gateway/logs
 
 # Package Files #
 *.zip
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+gateway/hs_err_pid*
+microservice/hs_err_pid*
